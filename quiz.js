@@ -44,14 +44,14 @@
       $('#option'+o).addClass('correct');
       setTimeout(function(){ 
         nextQuestion();   
-      }, 5000); 
+      }, 2000); 
     }
     else {
       $('#overlay').addClass('overlay');
       $('#option'+o).addClass('wrong');
       setTimeout(function(){ 
         nextQuestion();   
-      }, 10);    
+      }, 2000);    
     }
   }
 
